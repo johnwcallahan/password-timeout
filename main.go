@@ -10,7 +10,7 @@ import (
 )
 
 func main() {
-	lockout := NewLockout("hellogoodbye", 2, []int{5, 10})
+	lockout := NewLockout("hellogoodbye", 3, []int{5, 10, 30})
 	lockout.Run()
 }
 
